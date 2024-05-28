@@ -1,11 +1,16 @@
 import React from 'react'
 import Navbar from "./components/Navbar"
+import Hero from "./components/HeroSection";
 
 const App = () => {
   return (
-    <div>
+    <>
       <Navbar />
-    </div>
+      <div>
+      <Hero />
+      </div>
+      
+    </>
   )
 }
 
