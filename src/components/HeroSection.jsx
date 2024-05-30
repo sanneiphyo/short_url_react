@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <div
     id= "Hero Section "
-    className ="flex flex-col md:flex-row h-[32rem]  "
+    className ="flex flex-col md:flex-row h-[29rem]  "
     >
           {/**text section */}  
         <div className='flex flex-col mx-[11%] mt-[8rem]'>

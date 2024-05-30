@@ -17,7 +17,7 @@ export default {
          primary: '#10b981',
       }, 
       backgroundImage: {
-        'custom-bg': "url('../assets/linkbg.svg')",
+        'custom-bg': "url('./src/assets/linkbg.svg')",
       },
     },
   },
