@@ -3,10 +3,7 @@
     const LoginForm = () => {
       return (
        <div>
-        <div className = "flex ml-[30%]">
-               
-        </div>
-      
+        LoginForm
        </div>
       )
     }

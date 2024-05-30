@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <div
     id= "Hero Section "
-    className ="flex flex-col md:flex-row h-[29rem]  "
+    className ="flex flex-col md:flex-row h-[32rem]  "
     >
           {/**text section */}  
         <div className='flex flex-col mx-[11%] mt-[8rem]'>
@@ -16,7 +16,7 @@ const HeroSection = () => {
             insights on how your links are performing.
             </p>
             {/**started button */}
-            <button className='hover:text-white bg-[#5eead4] py-2 font-semibold w-32 mt-3 rounded-2xl'>Get started</button>
+            <button className='hover:text-white bg-[#5eead4] py-2 font-semibold w-32 mt-3 rounded-2xl  hover:bg-[#77a5d1] '>Get started</button>
         </div>
 
         {/**illustration */}

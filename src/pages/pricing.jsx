@@ -1,9 +1,22 @@
 import React from 'react'
 
-const pricing = () => {
+const Pricing = () => {
   return (
-    <div>pricing</div>
+   
+<div>
+        {/**Advanced Statistics */}
+        <div className = "flex ml-[30%]">
+               Advanced Statistics
+        </div>
+      {/**Advertizing the brand */}
+        <div>
+        Advertizing the brand
+        </div>
+       </div>
+
+
+   
   )
 }
 
-export default pricing
+export default Pricing
