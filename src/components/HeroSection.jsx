@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <div
     id= "Hero Section "
-    className ="flex flex-col sm:flex-row h-[32rem]  "
+    className ="flex flex-col md:flex-row h-[32rem]  "
     >
           {/**text section */}  
         <div className='flex flex-col mx-[11%] mt-[8rem]'>
@@ -20,8 +20,8 @@ const HeroSection = () => {
         </div>
 
         {/**illustration */}
-        <div className='flex flex-col  w-1/2 items-end justify-center'>
-        <img src={picture} alt="Illustration" className="w-full h-auto" />
+        <div className='flex flex-col  w-1/2 mx-[10rem] sm:mx-3   items-end justify-center'>
+        <img src={picture} alt="Illustration" className="w-full h-auto " />
         </div>
     </div>
   )

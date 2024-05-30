@@ -15,6 +15,9 @@ export default {
       },
       colors: {
          primary: '#10b981',
+      }, 
+      backgroundImage: {
+        'custom-bg': "url('../assets/linkbg.svg')",
       },
     },
   },

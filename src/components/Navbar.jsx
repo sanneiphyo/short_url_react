@@ -36,7 +36,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Items */}
       {menuItems && (
-        <div  className='bg-[#1e1b4b] flex-end justify-center  text-gray-50 sm:hidden px-12 py-3 mx-[20%] mt-3 h-96 rounded-xl font-bold text-2xl w-[70%] gap-10 '>
+        <div  className='bg-[#1e1b4b]  flex-end justify-center  text-gray-50 sm:hidden px-12 py-3 mx-[20%] mt-[5rem] h-96 rounded-xl font-bold text-2xl w-[70%] gap-10 '>
         <div>
           <p className='cursor-pointer hover:text-black mt-[20%] mb-5 mx-[23%]'>Features</p>
           <p className='cursor-pointer hover:text-black  mt-5 mb-5  mx-[26%]'>Pricing</p>
@@ -47,7 +47,7 @@ const Navbar = () => {
           <p >
             Login
           </p>
-          <button className=' text-white hover:text-gray-700 w-[80%] rounded-2xl px-3 py-1 cursor-pointer bg-[#5eead4]'>
+          <button className=' text-white hover:text-gray-700 w-[80%] rounded-2xl px-3 py-1 cursor-pointer bg-[#5eead4] '>
             Sign Up
           </button>
          
