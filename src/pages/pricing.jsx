@@ -45,12 +45,10 @@ const Pricing = () => {
 
       {/** Fully Customiazble*/}
       <div className='bg-white sm:mt-20 px-5 pb-5 mx-5 w-[35rem] rounded-md'>
-      <div className='absolute z-2  top-[-15%] bg-gray-700 w-[4rem] h-[4rem] px-4 py-3 rounded-full overflow-y'>
-
-        <img src = {customize} alt='brand reconginition' width={30} height={20} />
-        </div>
-
-      <h1   className='text-xl font-bold justify-center  mt-[9%]'>Fully Customizable</h1>
+        <div className='relative z-2  top-[-15%] bg-gray-700  w-[4rem] h-[4rem] px-4 py-4 rounded-full'>
+      <img src = {customize} alt='Detailed Records' width={30} height={20} />
+      </div>
+      <h1   className='text-xl font-bold justify-center '>Fully Customizable</h1>
       <p  className='mt-[5%] text-gray-700' >
         Improve brand awareness and content discoverability through customiazble links.supercharging audience engagement</p>
       </div>
