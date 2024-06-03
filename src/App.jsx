@@ -5,6 +5,7 @@ import Features from "./pages/Features";
 import Pricing from "./pages/Pricing";
 import Resource from './pages/Resource';
 
+
 const App = () => {
   return (
     <div >
