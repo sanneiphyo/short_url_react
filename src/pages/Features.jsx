@@ -11,7 +11,7 @@ const Features = () => {
   };
 
   return (
-    <div id="Features" className="flex h-52 items-center px-10 md:px-36">
+    <div id="Features" className="flex h-52 mt-14 items-center px-10 md:px-36">
       <div
         className="relative md:mx-15 w-full bg-cover bg-center mt-[15rem] md:mt-0"
         style={{ backgroundImage: `url(${bgImage})` }}

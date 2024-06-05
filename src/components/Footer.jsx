@@ -7,7 +7,7 @@ import twitter from "../assets/icon-twitter.svg"
 
 const Footer = () => {
   return (
-    <footer className='flex-col sm:flex text-white py-5 '>
+    <footer className='flex sm:flex-row text-white py-5 '>
     <h1 className='text-4xl  ml-[10rem] font-extrabold'>Shortly</h1>
       <div className='ml-[15rem] flex gap-14'>
 
