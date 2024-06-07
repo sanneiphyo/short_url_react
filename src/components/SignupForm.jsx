@@ -8,19 +8,19 @@ const LoginForm = () => {
   };
 
   const handleFacebookLogin = () => {
-   
+    // Facebook OAuth endpoint
     window.location.href = '';
   };
 
   const handleGoogleLogin = () => {
-  
+    // Google OAuth endpoint
     window.location.href = '';
   };
 
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-100">
       <div className="w-full max-w-md bg-white p-8 rounded-lg shadow-md">
-        <h2 className="text-2xl font-bold mb-8 text-center">Login</h2>
+        <h2 className="text-2xl font-bold mb-8 text-center">Sign Up</h2>
         <form onSubmit={handleEmailLogin}>
           <div className="mb-4">
             <label htmlFor="email" className="block text-gray-700 mb-2">Email</label>
@@ -30,7 +30,7 @@ const LoginForm = () => {
             <label htmlFor="password" className="block text-gray-700 mb-2">Password</label>
             <input type="password" id="password" className="w-full p-2 border border-gray-300 rounded" required />
           </div>
-          <button type="submit" className="w-full  bg-[#5eead4] hover:bg-[#77a5d1] text-white py-2 rounded-lg ">Login</button>
+          <button type="submit" className="w-full  hover:text-white py-2 rounded-lg bg-[#5eead4] hover:bg-[#77a5d1] ">sign up</button>
         </form>
         <div className="flex justify-between items-center mt-6">
           <button

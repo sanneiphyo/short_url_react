@@ -6,7 +6,7 @@ import customize from "../assets/icon-fully-customizable.svg"
 const Pricing = () => {
   return (
    
-<div className='flex flex-col h-[34rem] mt-[8rem]  sm:mt-[1rem]' >
+<div className='flex flex-col h-[34rem] mt-[8rem]  sm:mt-[5rem] ' >
         {/**Advanced Statistics */}
         <div className = " flex flex-col sm:ml-[30%] ">
         
