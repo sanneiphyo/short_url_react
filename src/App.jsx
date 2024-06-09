@@ -18,12 +18,13 @@ const App = () => {
             <>
               <Hero />
               <div className='bg-gray-200'>
-                <Features />
-                <Pricing />
-                <Resource />
+                <section id="features"><Features /></section>
+                <section id="pricing"><Pricing /></section>
+                <section id="resources"><Resource /></section>
               </div>
             </>
           } />
+          
           <Route path="/login" element={<LoginForm />} />
           <Route path="/signup" element={<SignUpForm />} />
         </Routes>

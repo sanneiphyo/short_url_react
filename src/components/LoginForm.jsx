@@ -30,7 +30,7 @@ const LoginForm = () => {
             <label htmlFor="password" className="block text-gray-700 mb-2">Password</label>
             <input type="password" id="password" className="w-full p-2 border border-gray-300 rounded" required />
           </div>
-          <button type="submit" className="w-full  bg-[#5eead4] hover:bg-[#77a5d1] text-white py-2 rounded-lg ">Login</button>
+          <button type="submit" className="w-full  bg-[#5eead4] hover:bg-[#77a5d1] hover:text-white py-2 rounded-lg ">Login</button>
         </form>
         <div className="flex justify-between items-center mt-6">
           <button
