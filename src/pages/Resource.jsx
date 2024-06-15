@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 const Resource = () => {
   return (
-    <div className=' h-[35rem] sm:h-[12rem] ' >
+    <div className=' h-[20rem] sm:h-[12rem] ' >
       {/** boost link */}
       <div className='mt-[25rem] mb-14 sm:mt-5 mx-24 sm:mx-[29rem]'>
 
@@ -16,7 +16,7 @@ const Resource = () => {
       </div>
 
       {/**footer */}
-      <div className='bg-gray-800 h-full mt-[5rem] '>
+      <div className='bg-gray-800 h-32 mt-[5rem] '>
         <Footer />
       </div>
     </div>
