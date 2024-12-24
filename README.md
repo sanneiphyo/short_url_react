@@ -1,6 +1,6 @@
 # URL Shortener Frontend
 
-This is the frontend for a URL shortening service built with React, Tailwind CSS, and React Router DOM.
+This is the frontend for a URL shortening service built with React, Tailwind CSS, and React Router DOM...
 
 
 
